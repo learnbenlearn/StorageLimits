@@ -1,0 +1,18 @@
+{
+    "env": {
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8
+    },
+    "extends": ["@salesforce/eslint-config-lwc/recommended"],
+    "overrides": [
+      {
+        "files": ["*.test.js"],
+        "rules": {
+          "@lwc/lwc/no-unexpected-wire-adapter-usages": "off"
+        }
+      }
+    ]
+  }
+  
