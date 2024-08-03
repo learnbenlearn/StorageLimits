@@ -1,12 +1,20 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
-      "default": true
+      "versionName": "Lakewood",
+      "versionNumber": "1.0.0.NEXT",
+      "path": "StorageLimits",
+      "default": true,
+      "package": "StorageLimits",
+      "versionDescription": "Lightweight package including a component that displays current data storage limit and consumption."
     }
   ],
   "name": "StorageLimits",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "61.0"
+  "sourceApiVersion": "61.0",
+  "packageAliases": {
+    "StorageLimits": "0Ho8c0000008OwkCAE",
+    "StorageLimits@1.0.0-1": "04t8c000000vGmnAAE"
+  }
 }
